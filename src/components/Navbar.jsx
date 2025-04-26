@@ -29,7 +29,7 @@ const Navbar = () => {
               </div>
             </div>
             <div className="hidden md:ml-6 md:flex md:space-x-8">
-              <a href="#" onClick={(e) => handleNavClick(e, 'hero')} className="text-gray-900 border-b-2 border-purple-600 px-3 py-2 text-sm font-medium">Home</a>
+              <a href="#" onClick={(e) => handleNavClick(e, 'hero')} className="text-gray-500 hover:text-gray-900 px-3 py-2 text-sm font-medium">Home</a>
               <a href="#about" onClick={(e) => handleNavClick(e, 'about')} className="text-gray-500 hover:text-gray-900 px-3 py-2 text-sm font-medium">About</a>
               <a href="#services" onClick={(e) => handleNavClick(e, 'services')} className="text-gray-500 hover:text-gray-900 px-3 py-2 text-sm font-medium">Services</a>
               <a href="#projects" onClick={(e) => handleNavClick(e, 'projects')} className="text-gray-500 hover:text-gray-900 px-3 py-2 text-sm font-medium">Projects</a>
