@@ -39,11 +39,12 @@ const Contact = () => {
     <section id="contact" className="bg-gray-50 py-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16 animate-fade-in">
-          <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
-            Contact Us
+          <h2 className="text-3xl font-bold text-gray-700 sm:text-4xl">
+          Need help for any project?
           </h2>
           <p className="mt-4 text-lg text-gray-500">
-            Let us help bring your vision to reality.
+          Complete the form, email us or contact us directly over the phone. We will help you resolve your every query regarding any software development solutions
+          Trust us one & we bet you will not regret!
           </p>
         </div>
 
