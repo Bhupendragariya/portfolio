@@ -1,10 +1,10 @@
 const Hero = () => {
   const handleScrollToProjects = (e) => {
     e.preventDefault();
-    const projectsSection = document.getElementById('projects');
-    if (projectsSection) {
+    const contactSection = document.getElementById('contact');
+    if (contactSection) {
       window.scrollTo({
-        top: projectsSection.offsetTop - 80,
+        top: contactSection.offsetTop - 80,
         behavior: 'smooth'
       });
     }
@@ -35,7 +35,7 @@ const Hero = () => {
                 onClick={handleScrollToProjects}
                 className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-2xl text-white bg-purple-600 hover:bg-purple-700 md:py-4 md:text-lg md:px-10"
               >
-                LEARN MORE
+                CONTACT US
               </a>
             </div>
           </div>

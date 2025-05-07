@@ -48,14 +48,8 @@ const Contact = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-          <div className="bg-white rounded-lg shadow-lg overflow-hidden animate-fade-in">
-            <img
-              className="w-full h-64 object-cover transform transition duration-500 hover:scale-105"
-              src="https://images.unsplash.com/photo-1566516449780-026b1ff13259?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80"
-              alt="Customer support"
-            />
-          </div>
+        <div className="">
+         
 
           <div className="animate-slide-up">
             <form onSubmit={handleSubmit} className="space-y-6">

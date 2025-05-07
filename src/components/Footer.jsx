@@ -119,36 +119,9 @@ const Footer = () => {
             <p className="text-base text-gray-400">
               &copy; 2024 CreativeHub, Inc. All rights reserved.
             </p>
-            <div className="mt-6 md:mt-0">
-              <h3 className="text-sm font-semibold text-gray-300 mb-2">Subscribe to our newsletter</h3>
-              <form onSubmit={handleSubscribe} className="flex sm:max-w-md">
-                <input
-                  type="email"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  required
-                  className="appearance-none min-w-0 w-full bg-gray-800 border border-gray-700 py-2 px-4 text-base text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-900 focus:ring-purple-500 focus:border-purple-500 focus:placeholder-gray-400"
-                  placeholder="Enter your email"
-                />
-                <div className="ml-3 rounded-md shadow sm:flex-shrink-0">
-                  <button
-                    type="submit"
-                    className="w-full bg-purple-600 px-4 py-2 border border-transparent text-base font-medium text-white hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-900 focus:ring-purple-500"
-                  >
-                    Subscribe
-                  </button>
-                </div>
-              </form>
-            </div>
+           
           </div>
-          <div className="mt-4 flex items-center justify-center md:justify-start">
-            <select className="mt-1 block w-full md:w-auto pl-3 pr-10 py-2 text-base bg-gray-800 text-gray-300 border-gray-700 focus:outline-none focus:ring-purple-500 focus:border-purple-500 sm:text-sm rounded-md">
-              <option>English</option>
-              <option>Spanish</option>
-              <option>French</option>
-              <option>German</option>
-            </select>
-          </div>
+          
         </div>
       </div>
     </footer>
